@@ -18,12 +18,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 ---
 
 
-<h2 id="general">General Information</h2>
-
-
- <p id="Intro">
-  <strong>Intro:</strong> hghgh
-
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
