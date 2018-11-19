@@ -27,7 +27,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 
-  AUDIENCE
+  <p id="audience">
+  <strong>Audience:</strong>
 
   This is a Software Carpentry workshop hosted by the University of Minnesota, Minneapolis. If you would like to attend this workshop and are not already signed up, please contact Franklin Sayre fdsayre@umn.edu
 
