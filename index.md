@@ -20,12 +20,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="general">General Information</h2>
 
-{% comment %}
+
   INTRODUCTION
 
   Edit the general explanatory paragraph below if you want to change
   the pitch.
-{% endcomment %}
+
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
