@@ -199,7 +199,7 @@ eventbrite: 51669978296     # optional: alphanumeric key for Eventbrite registra
 <hr/>
 
 {% comment %}
-  SYLLABUS
+  SYLLAB
 
   Show what topics will be covered.
 
