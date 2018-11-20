@@ -116,6 +116,7 @@ eventbrite: "51669978296"     # optional: alphanumeric key for Eventbrite regist
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+
 {% comment %}
   EVENTBRITE
 
@@ -124,6 +125,7 @@ eventbrite: "51669978296"     # optional: alphanumeric key for Eventbrite regist
   are not using Eventbrite, or leave it in, since it will not be
   displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
+
 {% if page.eventbrite %}
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
@@ -133,11 +135,13 @@ eventbrite: "51669978296"     # optional: alphanumeric key for Eventbrite regist
   scrolling="auto">
 </iframe>
 {% endif %}
+
 {% comment %}
   CONTACT EMAIL ADDRESS
 
   Display the contact email address set in the configuration file.
 {% endcomment %}
+
 <p id="contact">
   <strong>Contact</strong>:
   Please email
