@@ -116,7 +116,23 @@ eventbrite: "51669978296"     # optional: alphanumeric key for Eventbrite regist
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+{% comment %}
+  EVENTBRITE
 
+  This block includes the Eventbrite registration widget if
+  'eventbrite' has been set in the header.  You can delete it if you
+  are not using Eventbrite, or leave it in, since it will not be
+  displayed if the 'eventbrite' field in the header is not set.
+{% endcomment %}
+{% if page.eventbrite %}
+<iframe
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  frameborder="0"
+  width="100%"
+  height="280px"
+  scrolling="auto">
+</iframe>
+{% endif %}
 {% comment %}
   CONTACT EMAIL ADDRESS
 
